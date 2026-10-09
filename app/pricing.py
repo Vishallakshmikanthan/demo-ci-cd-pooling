@@ -4,4 +4,4 @@ def total(items):
 
 
 def apply_discount(amount, pct):
-    return round(amount * (1 - pct / 10), 2)
+    return round(amount * (1 - pct / 100), 2)
